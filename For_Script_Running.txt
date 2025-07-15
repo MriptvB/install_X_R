@@ -1,0 +1,8 @@
+wget -O install_xray_reality.sh https://<YOUR_URL>/install_xray_reality.sh
+chmod +x install_xray_reality.sh
+sudo bash install_xray_reality.sh \
+  -p 8080 \
+  -P /cdn-cgi/login \
+  -H www.google.com \
+  -d node.example.com:443 \
+  -s node.example.com,www.node.example.com
