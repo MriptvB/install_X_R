@@ -1,3 +1,0 @@
-wget -O install_X_R.sh https://raw.githubusercontent.com/MriptvB/install_X_R/main/install_X_R.sh
-chmod +x install_xray_reality.sh
-sudo ./install_xray_reality.sh
